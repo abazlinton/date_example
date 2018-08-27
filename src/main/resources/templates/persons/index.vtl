@@ -1,0 +1,9 @@
+<html>
+
+    #foreach ($person in $persons)
+        <p>$person.getName() - born in $person.getDob().year in month $person.getDob().month</p>
+    #end
+
+    <a href="/persons/new">Create new person</a>
+
+</html>
